@@ -56,3 +56,53 @@ CloudWatch Agent collects:
 ## Load Testing
 
 Performed using k6.
+Deployment Guide
+
+Create:
+docs/DeploymentGuide.md
+Contents:
+# Deployment Guide
+
+## Step 1
+Launch EC2 Ubuntu 24.04
+
+## Step 2
+Create Security Group
+
+- Port 22
+- Port 80
+- Port 443
+
+## Step 3
+Install Node.js
+
+## Step 4
+Install Nginx
+
+## Step 5
+Clone Repository
+
+## Step 6
+Install Dependencies
+
+## Step 7
+Configure Nginx
+
+## Step 8
+Configure systemd
+
+## Step 9
+Configure HTTPS
+
+## Step 10
+Configure GitHub Actions
+
+## Step 11
+Configure CloudWatch
+
+## Step 12
+Configure API Gateway
+
+## Step 13
+Run Load Test
+
