@@ -15,7 +15,7 @@ app.get("/", (req, res) => {
 
     res.json({
         application: "DevOps Technical Assignment",
-        status: "Running",
+        status: "Deployment Successful",
         timestamp: new Date()
     });
 });
